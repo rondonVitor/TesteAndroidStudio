@@ -1,0 +1,46 @@
+<resources>
+    <string name="navigation_drawer_open">Navegação no Drawer Aberta</string>
+    <string name="navigation_drawer_close">Navegação no Drawer Fechada</string>
+    <string name="nav_header_title">Intelbras</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações</string>
+    <string name="app_name">Teste Android</string>
+    <string name="etapa1">Etapa 1 de 3: Troncos</string>
+    <string name="texto_etapa1">Informe a quantidade de cada item.\nA quantidade máxima de alguns campos serão automaticamente alteradas de acordo
+        com o preenchimento do campo anterior</string>
+    <string name="troncos_digital">Troncos digitais</string>
+    <string name="troncos_analógicos">Troncos analógicos</string>
+    <string name="troncos_gsm">Troncos GSM</string>
+    <string name="troncos_ip">Troncos IP</string>
+    <string name="button_continuar">Continuar</string>
+    <string name="etapa2">Etapa 2 de 3: Ramais</string>
+    <string name="texto_etapa2">Informe a quantidade de cada item.\nA quantidade máxima de alguns campos serão automaticamente alteradas de acordo
+        com o preenchimento do campo/etapa anterior.</string>
+    <string name="ramais_analogicos">Ramais analógicos</string>
+    <string name="ramais_digitais">Ramais digitais</string>
+    <string name="ramais_ip">Ramais IP</string>
+    <string name="sem_display">Sem display</string>
+    <string name="com_display">Com display</string>
+    <string name="Com_video_chamada">Com video chamada</string>
+    <string name="softphone">Softphone</string>
+    <string name="etapa3">Etapa 3 de 3: Acessórios</string>
+    <string name="tarifacao">Tarifação de chamadas</string>
+    <string name="gravacao_chamadas">Gravação de chamadas</string>
+    <string name="correio_voz">Correio de voz</string>
+    <string name="mesa_virtual">Mesa virtual</string>
+    <string name="disa">DISA</string>
+    <string name="button_finalizar">Finalizar</string>
+    <string name="produtos_activity_produto">Produtos</string>
+    <string name="Resultado_resultado">Resultado</string>
+    <string name="Resultado_matriz">Matriz</string>
+    <string name="Resultado_opcao1">Opção 1</string>
+    <string name="Resultado_unniti1">UnniTi 2000</string>
+    <string name="Resultado_central1">Central PABX híbrida</string>
+    <string name="Resultado_opcao2">Opção 2</string>
+    <string name="Resultado_unniti2">UnniTi 3000</string>
+    <string name="Resultado_central2">Central PABX híbrida</string>
+    <string name="Resultado_filial">Adicionar Filial1</string>
+    <string name="Resultado_salvar">Salvar nos Favoritos</string>
+    <string name="Resultado_compartilhar">Compartilhar</string>
+
+</resources>

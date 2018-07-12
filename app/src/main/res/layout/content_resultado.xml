@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ResultadoActivity"
+    tools:showIn="@layout/app_bar_resultado">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/Resultado_resultado"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5994f2"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/Resultado_matriz"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/opcao1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dadada"
+        android:paddingBottom="4dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="4dp"
+        android:text="@string/Resultado_opcao1"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#dadada">
+
+        <TextView
+            android:id="@+id/centralpabx1"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/img14"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="2dp"
+            android:text="@string/Resultado_central1" />
+
+        <TextView
+            android:id="@+id/unniti2k"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/img14"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="2dp"
+            android:text="@string/Resultado_unniti1"
+            android:textColor="@android:color/black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/img14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:src="@android:drawable/checkbox_off_background" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="#dadada"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="4dp"
+            android:text="@string/Resultado_opcao2"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button9"
+            android:text="@string/Resultado_compartilhar" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button8"
+            android:text="@string/Resultado_salvar" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="111dp"
+            android:text="@string/Resultado_filial" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView10"
+            android:background="#dadada"
+            android:paddingBottom="2dp"
+            android:paddingLeft="52dp"
+            android:paddingTop="2dp"
+            android:text="@string/Resultado_central2" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageView3"
+            android:background="#dadada"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="2dp"
+            android:text="@string/Resultado_unniti2"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#dadada"
+            android:padding="2dp"
+            android:src="@android:drawable/checkbox_off_background" />
+    </RelativeLayout>
+</LinearLayout>

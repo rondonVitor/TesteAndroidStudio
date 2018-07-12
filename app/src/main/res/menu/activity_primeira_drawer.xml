@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/simular"
+            android:icon="@drawable/simular1"
+            android:title="Simular" />
+        <item
+            android:id="@+id/simulacoesSalvas"
+            android:icon="@drawable/save1"
+            android:title="Simulações salvas" />
+        <item
+            android:id="@+id/produtos"
+            android:icon="@drawable/produtos1"
+            android:title="Produtos" />
+    </group>
+
+</menu>

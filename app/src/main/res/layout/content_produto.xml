@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProdutoActivity"
+    tools:showIn="@layout/app_bar_produto">
+
+    <TextView
+        android:id="@+id/produtos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C0C0"
+        android:paddingBottom="10sp"
+        android:paddingLeft="15sp"
+        android:paddingTop="10sp"
+        android:text="@string/produtos_activity_produto"
+        android:textColor="@android:color/black"
+        android:textSize="22dp" />
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D3D3D3"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/Placas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <RelativeLayout
+                                android:id="@+id/playout11"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg11"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400336" />
+
+                                <TextView
+                                    android:id="@+id/pnome11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg11"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="INTERFACE 1E1 R2/RDSI UNNITI 2000/3000"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                                <ImageView
+                                    android:id="@+id/pimg11"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="2dp"
+                                    android:src="@android:drawable/checkbox_off_background" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/playout12"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg12"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400328" />
+
+                                <TextView
+                                    android:id="@+id/pnome12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg12"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="INTERFACE 2E1 R2/RDSI UNNITI 2000/3000"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                                <ImageView
+                                    android:id="@+id/pimg12"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="2dp"
+                                    android:src="@android:drawable/checkbox_off_background" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/playout13"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg13"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400337" />
+
+                                <TextView
+                                    android:id="@+id/pnome13"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg13"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="CODEC 60 UNIITI 2000/3000"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                                <ImageView
+                                    android:id="@+id/pimg13"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="2dp"
+                                    android:src="@android:drawable/checkbox_off_background" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/playout14"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg14"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400335" />
+
+                                <TextView
+                                    android:id="@+id/pnome14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg14"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="EXPANSÃO GSM 4 CANAIS UNNITI 2000/3000"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                                <ImageView
+                                    android:id="@+id/pimg14"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="2dp"
+                                    android:src="@android:drawable/checkbox_off_background" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:id="@+id/playout15"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg15"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400326" />
+
+                                <TextView
+                                    android:id="@+id/pnome15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg15"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="RAMAL ANALOGICO UNNITI 2000/3000 16RA"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                                <ImageView
+                                    android:id="@+id/pimg15"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="2dp"
+                                    android:src="@android:drawable/checkbox_off_background" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                            android:id="@+id/playout16"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg16"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400330" />
+
+                                <TextView
+                                    android:id="@+id/pnome16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg16"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="RAMAL DIGITAL UNNITI 2000/3000 12RD"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                            <ImageView
+                                android:id="@+id/pimg16"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:padding="2dp"
+                                android:src="@android:drawable/checkbox_off_background" />
+                        </RelativeLayout>
+                            <RelativeLayout
+                            android:id="@+id/playout17"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#dadada">
+
+                            <TextView
+                                android:id="@+id/pcod17"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_toEndOf="@+id/pimg17"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingTop="2dp"
+                                android:text="cod: 4400331" />
+
+                                <TextView
+                                    android:id="@+id/pnome17"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg17"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="RAMAL MISTO UNNITI 2000/3000 4RD E 12RA"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                            <ImageView
+                                android:id="@+id/pimg17"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:padding="2dp"
+                                android:src="@android:drawable/checkbox_off_background" />
+                        </RelativeLayout>
+                            <RelativeLayout
+                            android:id="@+id/playout18"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg18"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400327" />
+
+                                <TextView
+                                    android:id="@+id/pnome18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg18"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="TRONCO ANALOGICO UNNITI 2000/3000 8TR"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                            <ImageView
+                                android:id="@+id/pimg18"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:padding="2dp"
+                                android:src="@android:drawable/checkbox_off_background" />
+                        </RelativeLayout>
+                            <RelativeLayout
+                            android:id="@+id/playout19"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#dadada">
+
+                                <TextView
+                                    android:id="@+id/pcod19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_toEndOf="@+id/pimg19"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="cod: 4400334" />
+
+                                <TextView
+                                    android:id="@+id/pnome19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="25dp"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_toEndOf="@+id/pimg19"
+                                    android:paddingBottom="2dp"
+                                    android:paddingLeft="2dp"
+                                    android:paddingTop="2dp"
+                                    android:text="TRONCO GSM 4 CANAIS UNNITI 2000/3000"
+                                    android:textColor="@android:color/black"
+                                    android:visibility="visible" />
+
+                            <ImageView
+                                android:id="@+id/pimg19"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:padding="2dp"
+                                android:src="@android:drawable/checkbox_off_background" />
+                        </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Centrais"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/clayout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#dadada">
+
+
+                        <TextView
+                            android:id="@+id/ccod11"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/cimg11"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="cod: 4321708" />
+
+                        <TextView
+                            android:id="@+id/cnome11"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/cimg11"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="CENTRAL UNITTI 2000"
+                            android:textColor="@android:color/black"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/cimg11"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="2dp"
+                            android:src="@android:drawable/checkbox_off_background" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/clayout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#dadada">
+
+                        <TextView
+                            android:id="@+id/ccod12"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/cimg12"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="cod: 4321709" />
+
+                        <TextView
+                            android:id="@+id/cnome12"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/cimg12"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="CENTRAL UNNITI 3000"
+                            android:textColor="@android:color/black"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/cimg12"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="2dp"
+                            android:src="@android:drawable/checkbox_off_background" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+                </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Acessórios"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/alayout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#dadada">
+
+
+                        <TextView
+                            android:id="@+id/acod11"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/aimg11"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="cod: 4400341" />
+
+                        <TextView
+                            android:id="@+id/anome11"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/aimg11"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="LICENÇA CORREIO DE VOZ UNNITI 2000/3000"
+                            android:textColor="@android:color/black"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/aimg11"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="2dp"
+                            android:src="@android:drawable/checkbox_off_background" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/alayout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#dadada">
+
+                        <TextView
+                            android:id="@+id/acod12"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/aimg12"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="cod: 4400338" />
+
+                        <TextView
+                            android:id="@+id/anome12"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/aimg12"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="LICENÇA DE RAMAL IP UNNITI 2000/3000"
+                            android:textColor="@android:color/black"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/aimg12"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="2dp"
+                            android:src="@android:drawable/checkbox_off_background" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/alayout13"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#dadada">
+
+                        <TextView
+                            android:id="@+id/acod13"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/aimg13"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="cod: 4400339" />
+
+                        <TextView
+                            android:id="@+id/anome13"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/aimg13"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="LICENÇA DE TRONCO IP UNNITI 2000/3000"
+                            android:textColor="@android:color/black"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/aimg13"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="2dp"
+                            android:src="@android:drawable/checkbox_off_background" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/alayout14"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#dadada">
+
+                        <TextView
+                            android:id="@+id/acod14"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/aimg14"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="cod: 4400342" />
+
+                        <TextView
+                            android:id="@+id/anome14"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/aimg14"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="LICENÇA DISA UNNITI 2000/3000"
+                            android:textColor="@android:color/black"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/aimg14"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="2dp"
+                            android:src="@android:drawable/checkbox_off_background" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/alayout15"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#dadada">
+
+                        <TextView
+                            android:id="@+id/acod15"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/aimg15"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="cod: 4400340" />
+
+                        <TextView
+                            android:id="@+id/anome15"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/aimg15"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="2dp"
+                            android:paddingTop="2dp"
+                            android:text="LICENÇA GRAVAÇÃO DE CHAMADAS UNNITI 2000/3000"
+                            android:textColor="@android:color/black"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/aimg15"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:padding="2dp"
+                            android:src="@android:drawable/checkbox_off_background" />
+                    </RelativeLayout>
+                </LinearLayout>
+                </ScrollView>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
